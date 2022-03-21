@@ -1,0 +1,94 @@
+.container{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans';
+}
+
+.newsletter{
+  font-family: 'Open Sans';
+  color:grey;
+  border: solid thin grey;
+  padding:10px;
+  margin-top: 40px;
+  border: solid thin #cfcfcf;
+  border-radius: 3px;
+  padding-bottom:20px;
+  position: relative;
+}
+
+h3{
+  margin-top: 30px;
+}
+
+.newsletter button {
+  background-color: #3cb878;
+  font-family: 'Open Sans';
+  border: none;
+  color: white;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.newsletter input#email {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 4px;
+  border: solid #cfcfcf 1px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.newsletter h3 {
+  margin-top: 0;
+}
+
+
+.card{
+  background-color: #3cb878;
+  width: 180px;
+  text-align: center;
+  color: white;
+  padding: 20px 0px;
+  box-shadow: 0px 0px 7px 2px grey;
+}
+
+.card h3 {
+  margin-bottom: 0;
+}
+
+.newsletter #terms{
+  position: relative;
+  top: 1px;
+
+}
+
+.newsletter #closex{
+  position: absolute;
+  top: 0;
+  right: 4px;
+}
+
+#card-holder{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#questionmark{
+  background-color: #3cb878;
+  width: 100px;
+  height:100px;
+  border-radius: 50%;;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
